@@ -1,0 +1,60 @@
+.container-dev{
+   
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+    
+}
+.form-control{
+    padding: .5em;
+    
+}
+
+.input-fields{
+    padding: 1em;
+    width: 20em;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.submit-btn{
+    padding:1em 3em;
+    border: none;
+    border-radius: 5px;
+    transition: 200ms;
+   
+}
+.submit-btn,.cancel-btn:hover{
+    background-color: #cec6c6;
+    cursor: pointer;
+}
+.cancel-btn{
+    background-color: #F0F0F0;
+    padding:.7em 3em;
+    border: none;
+    border-radius: 5px;
+    transition: 200ms;
+    text-decoration: none;
+
+
+}
+
+
+.table-class td{
+
+    padding:1em;
+}
+
+.main-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.table-dev-container{
+    margin-top: 1em;
+
+}
